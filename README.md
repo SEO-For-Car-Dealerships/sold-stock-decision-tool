@@ -6,6 +6,10 @@ It produces a review log rather than changing a live website. Search outcomes de
 
 ![Complete example](docs/preview.png)
 
+## Live demo
+
+[Try Sold Stock Decision Tool](https://seo-for-car-dealerships.github.io/sold-stock-decision-tool/). The demo runs in your browser; entered data is not uploaded by the tool. GitHub provides the hosting and handles request logs.
+
 ## Start locally
 
 Requires Node.js 22 or later. No runtime dependencies or account required.
