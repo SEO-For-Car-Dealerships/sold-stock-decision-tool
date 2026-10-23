@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sold Stock Decision Tool example structure",
+  "description": "Structural guide to the supplied example. Runtime validation enforces supported states, publication gates and cross-field rules.",
+  "type": "object",
+  "properties": {
+    "dealer": {
+      "type": "string"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stock_id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "stock_status": {
+            "type": "string"
+          },
+          "sold_on": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "remaining_content": {
+            "type": "string"
+          },
+          "proposed_destination": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "destination_relevance": {
+            "type": "string"
+          },
+          "evidence_note": {
+            "type": "string"
+          },
+          "reviewer": {
+            "type": "string"
+          },
+          "decision": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stock_id",
+          "url",
+          "stock_status",
+          "sold_on",
+          "remaining_content",
+          "proposed_destination",
+          "destination_relevance",
+          "evidence_note",
+          "reviewer",
+          "decision"
+        ]
+      }
+    }
+  },
+  "required": [
+    "dealer",
+    "records"
+  ]
+}

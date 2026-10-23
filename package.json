@@ -1,0 +1,22 @@
+{
+  "name": "sold-stock-decision-tool",
+  "version": "0.1.0",
+  "description": "Review sold-vehicle URLs using stock state, remaining content and human-approved next actions.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node --test && node scripts/build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEO-For-Car-Dealerships/sold-stock-decision-tool.git"
+  },
+  "homepage": "https://seoforcardealerships.co.uk/"
+}

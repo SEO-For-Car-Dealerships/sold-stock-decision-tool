@@ -1,0 +1,6 @@
+"stock_id","url","stock_status","sold_on","remaining_content","proposed_destination","destination_relevance","evidence_note","reviewer","decision"
+"A","https://example.com/stock/a","sold","2026-10-01","Original useful ownership and vehicle information remains.","","unknown","Synthetic editorial review 1","Editor A","keep"
+"B","https://example.com/stock/b","sold","2026-10-02","A possible related replacement needs review.","https://example.com/stock/b-replacement","unknown","Synthetic review 2","Editor A","replace"
+"C","https://example.com/stock/c","sold","2026-10-03","","","unknown","Thin retired example, no similar replacement.","Editor B","retire"
+"D","https://example.com/stock/d","available","2026-10-01","","","unknown","Conflicting record","","gather"
+"E","https://example.com/stock/e","sold","","","https://example.com/","irrelevant","","","replace"

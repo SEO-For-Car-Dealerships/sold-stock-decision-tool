@@ -1,0 +1,109 @@
+{
+  "title": "Example Motors / synthetic lifecycle review sold-stock review",
+  "summary": "Human decision register only. No redirect is deployed and no ranking or link-value outcome is promised.",
+  "records": [
+    {
+      "stock_id": "A",
+      "url": "https://example.com/stock/a",
+      "stock_status": "sold",
+      "sold_on": "2026-10-01",
+      "remaining_content": "Original useful ownership and vehicle information remains.",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Synthetic editorial review 1",
+      "reviewer": "Editor A",
+      "decision": "keep",
+      "outcome": "Keep with honest sold label",
+      "approved": true
+    },
+    {
+      "stock_id": "B",
+      "url": "https://example.com/stock/b",
+      "stock_status": "sold",
+      "sold_on": "2026-10-02",
+      "remaining_content": "A possible related replacement needs review.",
+      "proposed_destination": "https://example.com/stock/b-replacement",
+      "destination_relevance": "unknown",
+      "evidence_note": "Synthetic review 2",
+      "reviewer": "Editor A",
+      "decision": "replace",
+      "outcome": "Gather more evidence",
+      "approved": false
+    },
+    {
+      "stock_id": "C",
+      "url": "https://example.com/stock/c",
+      "stock_status": "sold",
+      "sold_on": "2026-10-03",
+      "remaining_content": "",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Thin retired example, no similar replacement.",
+      "reviewer": "Editor B",
+      "decision": "retire",
+      "outcome": "Retire after human approval",
+      "approved": true
+    },
+    {
+      "stock_id": "D",
+      "url": "https://example.com/stock/d",
+      "stock_status": "available",
+      "sold_on": "2026-10-01",
+      "remaining_content": "",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Conflicting record",
+      "reviewer": "",
+      "decision": "gather",
+      "outcome": "Gather more evidence",
+      "approved": false
+    },
+    {
+      "stock_id": "E",
+      "url": "https://example.com/stock/e",
+      "stock_status": "sold",
+      "sold_on": null,
+      "remaining_content": "",
+      "proposed_destination": "https://example.com/",
+      "destination_relevance": "irrelevant",
+      "evidence_note": "",
+      "reviewer": "",
+      "decision": "replace",
+      "outcome": "Gather more evidence",
+      "approved": false
+    }
+  ],
+  "issues": [
+    {
+      "code": "review",
+      "message": "A replacement requires an explicitly relevant destination",
+      "source": "B"
+    },
+    {
+      "code": "review",
+      "message": "Confirm actual sold state",
+      "source": "D"
+    },
+    {
+      "code": "review",
+      "message": "Stock status contradicts a sold date",
+      "source": "D"
+    },
+    {
+      "code": "review",
+      "message": "Record evidence and rationale",
+      "source": "E"
+    },
+    {
+      "code": "review",
+      "message": "A reviewer must approve the decision",
+      "source": "E"
+    },
+    {
+      "code": "review",
+      "message": "A replacement requires an explicitly relevant destination",
+      "source": "E"
+    }
+  ],
+  "markdown": "- A: Keep with honest sold label; reviewer Editor A; evidence Synthetic editorial review 1\n- B: Gather more evidence; reviewer Editor A; evidence Synthetic review 2\n- C: Retire after human approval; reviewer Editor B; evidence Thin retired example, no similar replacement.\n- D: Gather more evidence; reviewer Unassigned; evidence Conflicting record\n- E: Gather more evidence; reviewer Unassigned; evidence Missing"
+}

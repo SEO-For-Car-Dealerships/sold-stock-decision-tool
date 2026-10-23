@@ -1,0 +1,65 @@
+{
+  "dealer": "Example Motors / synthetic lifecycle review",
+  "records": [
+    {
+      "stock_id": "A",
+      "url": "https://example.com/stock/a",
+      "stock_status": "sold",
+      "sold_on": "2026-10-01",
+      "remaining_content": "Original useful ownership and vehicle information remains.",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Synthetic editorial review 1",
+      "reviewer": "Editor A",
+      "decision": "keep"
+    },
+    {
+      "stock_id": "B",
+      "url": "https://example.com/stock/b",
+      "stock_status": "sold",
+      "sold_on": "2026-10-02",
+      "remaining_content": "A possible related replacement needs review.",
+      "proposed_destination": "https://example.com/stock/b-replacement",
+      "destination_relevance": "unknown",
+      "evidence_note": "Synthetic review 2",
+      "reviewer": "Editor A",
+      "decision": "replace"
+    },
+    {
+      "stock_id": "C",
+      "url": "https://example.com/stock/c",
+      "stock_status": "sold",
+      "sold_on": "2026-10-03",
+      "remaining_content": "",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Thin retired example, no similar replacement.",
+      "reviewer": "Editor B",
+      "decision": "retire"
+    },
+    {
+      "stock_id": "D",
+      "url": "https://example.com/stock/d",
+      "stock_status": "available",
+      "sold_on": "2026-10-01",
+      "remaining_content": "",
+      "proposed_destination": null,
+      "destination_relevance": "unknown",
+      "evidence_note": "Conflicting record",
+      "reviewer": "",
+      "decision": "gather"
+    },
+    {
+      "stock_id": "E",
+      "url": "https://example.com/stock/e",
+      "stock_status": "sold",
+      "sold_on": null,
+      "remaining_content": "",
+      "proposed_destination": "https://example.com/",
+      "destination_relevance": "irrelevant",
+      "evidence_note": "",
+      "reviewer": "",
+      "decision": "replace"
+    }
+  ]
+}
