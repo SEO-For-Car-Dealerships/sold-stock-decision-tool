@@ -1,6 +1,6 @@
 {
   "name": "sold-stock-decision-tool",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Work through a sold-stock page and prepare a sensible next-step brief for your website supplier.",
   "type": "module",
   "private": false,
