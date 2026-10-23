@@ -1,0 +1,9 @@
+{
+  "vehicle": "Example Hatchback, stock 104",
+  "url": "https://example.com/stock/example-hatchback",
+  "state": "sold",
+  "content": "no",
+  "visits": "unknown",
+  "replacement": "unsure",
+  "control": "yes"
+}

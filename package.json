@@ -1,7 +1,7 @@
 {
   "name": "sold-stock-decision-tool",
-  "version": "0.1.0",
-  "description": "Review sold-vehicle URLs using stock state, remaining content and human-approved next actions.",
+  "version": "0.2.0",
+  "description": "Work through a sold-stock page and prepare a sensible next-step brief for your website supplier.",
   "type": "module",
   "private": false,
   "license": "MIT",

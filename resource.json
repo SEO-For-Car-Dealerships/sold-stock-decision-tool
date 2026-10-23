@@ -3,9 +3,10 @@
   "org": "SEO-For-Car-Dealerships",
   "brand": "SEO for Car Dealerships",
   "slug": "sold-stock-decision-tool",
-  "title": "Sold Stock Decision Tool",
+  "title": "Sold Vehicle Page Planner",
   "profile": "Dealership SEO with practical attention to stock content and vehicle-page lifecycles. Operated by JW Digital Services Ltd.",
-  "accent": "#42395c",
-  "tint": "#efebf6",
-  "summary": "Review sold-vehicle URLs using stock state, remaining content and human-approved next actions."
+  "accent": "#f51d2d",
+  "tint": "#fae7e1",
+  "summary": "Work through a sold-stock page and prepare a sensible next-step brief for your website supplier.",
+  "brandMark": "<svg viewBox=\"0 0 58 48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M1 43 25 5h12L13 43ZM17 43 41 5h12L29 43Z\" fill=\"currentColor\" stroke=\"none\"/></svg>"
 }

@@ -1,0 +1,15 @@
+Example Hatchback, stock 104: page plan
+
+Review the page before changing its address.
+
+Page under review
+- https://example.com/stock/example-hatchback
+
+Recommended next steps
+- Ask the supplier to check existing visits, links and whether any content remains useful.
+- Check whether a proposed destination actually satisfies the same visitor need.
+
+Supplier handover
+- Send this plan to the person responsible for the website.
+- Avoid sending all sold-stock addresses to the homepage or unrelated vehicles.
+- Review the proposed action before making a live change.
